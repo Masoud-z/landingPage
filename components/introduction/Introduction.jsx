@@ -1,3 +1,5 @@
+import Video from "./Video";
+
 function Introduction() {
   return (
     <main className="my-[30vh]">
@@ -10,6 +12,7 @@ function Introduction() {
           people understand your service (or just to hype ‘em up).
         </p>
       </section>
+      <Video />
     </main>
   );
 }
