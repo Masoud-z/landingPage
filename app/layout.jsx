@@ -8,9 +8,7 @@ export const metadata = {
 function layout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <main className="px-[10%]">{children}</main>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
