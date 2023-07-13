@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import Form from "./Form";
+
 import backgroundImg from "@/public/bg.jpg";
 import screenImg from "@/public/screen.svg";
 import heartImg from "@/public/heart.svg";
@@ -29,7 +31,7 @@ function Main() {
         </div>
       </section>
 
-      <section className="flex flex-row gap-20 justify-center items-end">
+      <section className="flex flex-row gap-24 justify-center items-end">
         <div className="flex flex-col gap-5 justify-center items-end mb-3 w-[40vw]">
           <div className="flex flex-row gap-3 justify-center items-start">
             <Image src={screenImg} width="40" height="35" />
@@ -65,8 +67,7 @@ function Main() {
             </div>
           </div>
         </div>
-
-        
+        <Form />
       </section>
     </main>
   );
