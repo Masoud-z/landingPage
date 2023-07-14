@@ -30,6 +30,7 @@ function Video() {
           width="100"
           height="100"
           className="absolute bottom-3/4 hover:cursor-pointer pointerEvent"
+          alt="play btn"
         />
       )}
     </div>

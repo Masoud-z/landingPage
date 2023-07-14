@@ -5,14 +5,14 @@ const recommendations = [
   {
     star: 5,
     text: "Share a real testimonial that hits some of your benefits (but isn't too sales-y).",
-    img: "@/public/recommender.jpg",
+    img: "/recommender.jpg",
     name: "Alexa Rita",
     location: "LondOff",
   },
   {
     star: 4.5,
     text: "Share a real testimonial that hits some of your benefits (but isn't too sales-y).",
-    img: "@/public/recommender2.jpg",
+    img: "/recommender2.jpg",
     name: "Linda Alfonso",
     location: "FromKio",
   },
@@ -23,7 +23,7 @@ function Testimonials() {
       <header className="text-xs font-semibold text-cyan-500">
         DON'T JUST TAKE OUR WORD FOR IT
       </header>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center w-full mt-[15vh]">
         {recommendations.map((recom) => (
           <Recommendation
             star={recom.star}

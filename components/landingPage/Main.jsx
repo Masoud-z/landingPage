@@ -34,7 +34,7 @@ function Main() {
       <section className="flex flex-row gap-24 justify-center items-end">
         <div className="flex flex-col gap-20 justify-center items-end mb-10 w-[40vw]">
           <div className="flex flex-row gap-3 justify-center items-start">
-            <Image src={screenImg} width="40" height="35" />
+            <Image src={screenImg} width="40" height="35" alt="screen" />
 
             <div className="flex flex-col gap-1 justify-start items-start">
               <h4 className="text-xl font-semibold -mt-1.5">Benefit 1</h4>
@@ -45,7 +45,7 @@ function Main() {
             </div>
           </div>
           <div className="flex flex-row gap-3 justify-center items-start">
-            <Image src={heartImg} width="40" height="35" />
+            <Image src={heartImg} width="40" height="35" alt="heart" />
 
             <div className="flex flex-col gap-1 justify-start items-start">
               <h4 className="text-xl font-semibold -mt-1.5">Benefit 2</h4>
@@ -56,7 +56,7 @@ function Main() {
             </div>
           </div>
           <div className="flex flex-row gap-3 justify-center items-start">
-            <Image src={badgeImg} width="40" height="35" />
+            <Image src={badgeImg} width="40" height="35" alt="badge" />
 
             <div className="flex flex-col gap-1 justify-start items-start">
               <h4 className="text-xl font-semibold -mt-1.5">Benefit 3</h4>
