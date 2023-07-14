@@ -17,6 +17,7 @@ const recommendations = [
     location: "FromKio",
   },
 ];
+
 function Testimonials() {
   return (
     <main className="flex flex-col justify-center items-center gap-20 mt-[30vh] px-[10%]">
