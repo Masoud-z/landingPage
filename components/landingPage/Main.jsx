@@ -19,16 +19,16 @@ function Main() {
       />
       <section className="mt-[5vh] flex flex-col gap-7 w-3/5">
         <div className="logo">Masoud</div>
-        <div className="font-semibold text-7xl leading-[85px]">
+        <h1 className="font-semibold text-7xl leading-[85px]">
           Our Business is to grow Yours.
-        </div>
-        <div className="text-xl font-normal leading-7">
+        </h1>
+        <p className="text-xl font-normal leading-7 w-4/5">
           Discussions with founders, investors and executives on how they
           achieved success and growth with their companies. Part inspiration,
           part practical playbook - Growth Stories delivers the real-life
           experiences & advice from those who have built global teams and
           scalable businesses.
-        </div>
+        </p>
       </section>
 
       <section className="flex flex-row gap-24 justify-center items-end">
