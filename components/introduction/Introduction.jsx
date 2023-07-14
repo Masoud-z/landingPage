@@ -2,7 +2,7 @@ import Video from "./Video";
 
 function Introduction() {
   return (
-    <main className="my-[30vh]">
+    <main className="mt-[30vh]">
       <section className="w-full h-[100vh] flex flex-col justify-center items-center gap-10 bg-emerald-50">
         <h1 className="text-5xl font-semibold text-center -mt-[35vh]">
           Show visitors what <br /> they're signing up for
