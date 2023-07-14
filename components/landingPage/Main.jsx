@@ -32,7 +32,7 @@ function Main() {
       </section>
 
       <section className="flex flex-row gap-24 justify-center items-end">
-        <div className="flex flex-col gap-20 justify-center items-end mb-3 w-[40vw]">
+        <div className="flex flex-col gap-20 justify-center items-end mb-10 w-[40vw]">
           <div className="flex flex-row gap-3 justify-center items-start">
             <Image src={screenImg} width="40" height="35" />
 
