@@ -1,4 +1,5 @@
 import React from "react";
+import Attribute from "./Attribute";
 
 const features = [
   {
@@ -22,7 +23,17 @@ const features = [
 ];
 
 function Features() {
-  return <main className="mt-[30vh] px-[10%] grid-cols-3 gap-3"></main>;
+  return (
+    <main className="mt-[30vh] px-[10%] grid-cols-3 gap-3">
+      {features.map((feature) => (
+        <Attribute
+          img={feature.img}
+          title={feature.title}
+          description={feature.description}
+        />
+      ))}
+    </main>
+  );
 }
 
 export default Features;
