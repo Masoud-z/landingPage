@@ -1,6 +1,6 @@
 # Landing Page
 
-A simple landingpage for your business 
+A simple landing page for your business 
 </br>
 :globe_with_meridians: Live: https://landing-page-two-rho-36.vercel.app/
 </br></br>
