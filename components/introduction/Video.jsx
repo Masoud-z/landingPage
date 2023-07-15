@@ -29,7 +29,7 @@ function Video() {
           src={playImg}
           width="100"
           height="100"
-          className="absolute bottom-1/2 hover:cursor-pointer pointerEvent"
+          className="absolute bottom-1/2 md:bottom-3/4 hover:cursor-pointer pointerEvent"
           alt="play btn"
         />
       )}
