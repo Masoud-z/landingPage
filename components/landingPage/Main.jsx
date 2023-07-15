@@ -64,7 +64,7 @@ function Main() {
             </div>
           </div>
         </div>
-        <Form className="order-1 md:order-2" />
+        <Form />
       </section>
     </main>
   );
