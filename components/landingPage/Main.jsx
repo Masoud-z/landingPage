@@ -9,7 +9,7 @@ import badgeImg from "@/public/badge.svg";
 
 function Main() {
   return (
-    <main className="px-[10%]">
+    <main className="px-[4%] md:px-[10%] ">
       <Image
         src={backgroundImg}
         objectFit="cover"
@@ -17,21 +17,18 @@ function Main() {
         alt="Background picture"
         className="-z-10"
       />
-      <section className="mt-[5vh] flex flex-col gap-7 w-3/5">
+      <section className="mt-[5vh] flex flex-col gap-7 md:w-3/5">
         <div className="logo">Masoud</div>
-        <h1 className="font-semibold text-7xl leading-[85px]">
+        <h1 className="font-semibold text-6xl md:text-7xl md:leading-[85px]">
           Our Business is to grow Yours.
         </h1>
-        <p className="text-xl font-normal leading-7 w-4/5">
+        <p className="text-xl font-normal leading-7 md:w-4/5">
           Discussions with founders, investors and executives on how they
-          achieved success and growth with their companies. Part inspiration,
-          part practical playbook - Growth Stories delivers the real-life
-          experiences & advice from those who have built global teams and
-          scalable businesses.
+          achieved success and growth with their companies.
         </p>
       </section>
 
-      <section className="flex flex-row gap-24 justify-center items-end">
+      <section className="grid md:grid-cols-2 gap-24 justify-center items-end">
         <div className="flex flex-col gap-20 justify-center items-end mb-10 w-[40vw]">
           <div className="flex flex-row gap-3 justify-center items-start">
             <Image src={screenImg} width="40" height="35" alt="screen" />
@@ -67,7 +64,7 @@ function Main() {
             </div>
           </div>
         </div>
-        <Form />
+        <Form className="order-1 md:order-2" />
       </section>
     </main>
   );
