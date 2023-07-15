@@ -2,11 +2,16 @@ import Image from "next/image";
 
 function About() {
   return (
-    <main className="mt-[30vh] px-[10%] grid grid-cols-2 justify-center content-center gap-[5vw]">
-      <section className="relative min-h-[400px] w-full">
-        <Image src="/about.jpg" fill={true} />
-      </section>
-      <section className="flex flex-col justify-center items-start gap-8 text-teal-900">
+    <main className="mt-20 md:mt-[30vh] px-[4%] md:px-[10%] grid grid-cols-1 md:grid-cols-2 justify-center content-center gap-[5vh] md:gap-[5vw]">
+      <Image
+        src="/about.jpg"
+        width={0}
+        height={0}
+        sizes="100vw"
+        style={{ width: "100%", height: "auto" }}
+      />
+
+      <section className="flex flex-col justify-center items-start gap-3 md:gap-8 text-teal-900">
         <h2 className="text-cyan-500 font-semibold text-xs">About</h2>
         <h3 className="font-semibold text-3xl ">
           Some more information about your business
