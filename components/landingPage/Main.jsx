@@ -28,8 +28,8 @@ function Main() {
         </p>
       </section>
 
-      <section className="grid md:grid-cols-2 gap-24 justify-center items-end">
-        <div className="flex flex-col gap-20 justify-center items-end mb-10 w-[40vw]">
+      <section className="flex flex-col md:flex-row gap-24 justify-center items-center md:items-end">
+        <div className="order-2 md:order-1 flex flex-col gap-20 justify-center items-end mb-10 md:w-[40vw]">
           <div className="flex flex-row gap-3 justify-center items-start">
             <Image src={screenImg} width="40" height="35" alt="screen" />
 

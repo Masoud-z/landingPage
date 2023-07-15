@@ -2,7 +2,7 @@
 
 function Form() {
   return (
-    <form className="flex flex-col gap-5 justify-center items-center p-12 mt-28 bg-lime-950 text-center max-w-[35vw]">
+    <form className="flex flex-col gap-5 justify-center items-center p-12 mt-28 bg-lime-950 text-center md:max-w-[35vw]">
       <h3 className="text-3xl text-white font-semibold">
         Schedule an <br /> Appointment
       </h3>
