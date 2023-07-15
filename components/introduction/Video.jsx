@@ -21,7 +21,7 @@ function Video() {
       <video
         loop
         src="/video.mp4"
-        className="w-[75vw] -mt-[42vh] hover:cursor-pointer"
+        className="w-[85vw] md:w-[75vw] -mt-[15vh] md:-mt-[42vh] hover:cursor-pointer"
         onClick={playPause}
       ></video>
       {showPlay && (
@@ -29,7 +29,7 @@ function Video() {
           src={playImg}
           width="100"
           height="100"
-          className="absolute bottom-3/4 hover:cursor-pointer pointerEvent"
+          className="absolute bottom-1/2 hover:cursor-pointer pointerEvent"
           alt="play btn"
         />
       )}
