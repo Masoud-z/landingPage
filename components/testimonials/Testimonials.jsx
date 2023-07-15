@@ -20,11 +20,11 @@ const recommendations = [
 
 function Testimonials() {
   return (
-    <main className="flex flex-col justify-center items-center gap-20 mt-[30vh] px-[10%]">
+    <main className="flex flex-col justify-center items-center gap-10 md:gap-20 mt-20 md:mt-[30vh] px-[4%] md:px-[10%]">
       <header className="text-xs font-semibold text-cyan-500">
         DON'T JUST TAKE OUR WORD FOR IT
       </header>
-      <div className="flex justify-between items-center w-full">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full gap-16 md:gap-0">
         {recommendations.map((recom) => (
           <Recommendation
             star={recom.star}

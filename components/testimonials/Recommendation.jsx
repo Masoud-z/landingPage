@@ -11,7 +11,7 @@ function Recommendation({ star, text, img, name, location }) {
     stars.push(<FontAwesomeIcon className="text-cyan-500" icon={faStarHalf} />);
   }
   return (
-    <section className="flex flex-col justify-start items-start gap-3 w-1/3 mx-[10vh]">
+    <section className="flex flex-col justify-start items-start gap-3 md:w-1/3 md:mx-[10vh]">
       <div className="flex justify-center items-center gap-2">{stars}</div>
       <p className="font-normal text-2xl">{text}</p>
       <div className="flex justify-start items-center gap-4 mt-3">
